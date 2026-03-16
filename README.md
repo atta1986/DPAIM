@@ -1,4 +1,4 @@
- # Dispersion from polarizability of the atom in molecule: DPAIM 
+ # Dispersion from polarizabilities of atoms in molecule: DPAIM
  ## Usage:
 /path/to/the/dpaim.exe file.dat
 
