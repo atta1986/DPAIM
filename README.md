@@ -17,7 +17,7 @@ The file.dat has the following structure. The XYZ coordinates are in Bohr units.
  X(atom 3) Y(atom 3) Z(atom 3) charge(atom 3) V3(atom 3) V5(atom 3) atomic_mass(atom 3) ....  /    B
    ...       ...       ...          ...       .... /
 
-*****
+***
 
 The following are the files needed to compile the DPAIM code:
 
@@ -30,12 +30,12 @@ volume_V5 -> Contain the effective volume of the reference molecules calculted u
 dpaim.exe -> is the DPAIM executable
 
 
-*****
+***
 
 The following command is used to compile the code:
 gfortran -O2 -cpp  polar_interp.f90 quad_polarizabilities_f90.f90 dipole_polarizabilities_f90.f90 DPAIM.f90 -o dpaim.exe
 
-****
+***
 
 The two main subroutine in DPAIM.f90 are:
 Subroutine fitted_dispersion() -> calculates the dispersion energy
